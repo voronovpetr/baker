@@ -1,0 +1,49 @@
+body {
+  background: #e6cea0;
+}
+
+#root {
+  width: 400px;
+  height: 400px;
+}
+
+#root h1 {
+  color: #3f000f;
+  padding: 5px;
+}
+
+#users-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#users-container .user-row {
+  padding: 5px;
+}
+
+#users-container .user {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 5px;
+  background: #3f000f;
+  color: #e6cea0;
+}
+
+#users-container .user-element {
+  padding: 10px;
+}
+
+#users-container .user button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 75px;
+  cursor: pointer;
+  background-color: #e6cea0;
+  color: #3f000f;
+}
+
+#users-container .user button:disabled {
+  background-color: #3f000f;
+}

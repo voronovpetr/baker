@@ -1,0 +1,21 @@
+{
+  "name": "Cookie Baker",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "background"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "cookie.png",
+    "48": "cookie.png",
+    "128": "cookie.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "cookie.png",
+    "default_title": "Cookie Baker"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "incognito": "split"
+}
